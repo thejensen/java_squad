@@ -12,7 +12,6 @@ public class HeroTest {
   @Test
   public void addProperty_addsPropertiesToArrayList_true() {
     Hero testHero = new Hero("Zuul", "Finds biggest lot");
-    // System.out.println(testHero.getProperties().get(0).getLotSize());
     assertEquals(1000,testHero.getProperties().get(0).getLotSize());
   }
 
